@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>WeatherMap</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="left-top">
+                        <p class="about">Forecast</p>
+                        <div class="about-r">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location">
+                                <p>Current Location</p>
+                                <span class="location-s"> </span><span class="country"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-area">
+                        <p class="title">the only weather forecast you need</p>
+                        <div class="line"></div>
+                        <form class="form">
+                            <input class="search-inp" type="text" placeholder="Enter Location">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <div class="info-top">
+                        <ul>
+                            <li class="active">Weather</li>
+                            <li>Map</li>
+                            <li>Sattellite</li>
+                            <li>News</li>
+                        </ul>
+                    </div>
+                    <p class="right-title">Today</p>
+                    <div class="line-t"></div>
+                    <div class="info-left">
+                        <p class="degree">
+                            0<sup>o</sup>
+                        </p>
+                        <div class="sun-icon-box">
+                            <span class="wet">
+                            
+                            </span> 
+                            <img id="sun-ico" src="" alt="">
+                        </div>
+
+                        <!-- <i class="fa-solid fa-cloud-sun ico"></i> -->
+                        <p class="date"></p>
+                    </div>
+                     
+                     <p class="wet-info">Weather Info</p>
+                    <div class="bottom">
+                       
+                        <div class="bottom-left">
+                            <p class="w-info visibility">Visibility: </p>
+                            <p class="w-info humidity">Humidity: </p>
+                            <p class="w-info deg">Deg: </p>
+                            <p class="w-info sunrise">Sunrise: </p>
+                        </div>
+                        <div class="bottom-right">
+                            <p class="w-info pressure">Pressure: </p>
+                            <p class="w-info wind-speed">Wind: </p>
+                            <p class="w-info gust">Timezone: </p>
+                            <p class="w-info sunset">Sunset</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/76c929e6a2.js"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
